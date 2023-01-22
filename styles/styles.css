@@ -5,6 +5,9 @@
   --h1-light: #303030;
   --nav-bg-light: #2e80a8;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;

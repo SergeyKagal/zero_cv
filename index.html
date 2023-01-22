@@ -13,42 +13,50 @@
   </head>
 
   <body>
-   <div class="overlay ">
-    <div class="close__button">
-      <span class="material-icons">
-        close
-        </span>
+    <div class="overlay">
+      <div class="close__button">
+        <span class="material-icons"> close </span>
+      </div>
     </div>
-   </div>
-   <div class="wrapper">
-    <header>
-        <div class="header__button"><span class="material-icons">
-          menu
-          </span></div>
+    <div class="wrapper">
+      <header>
+        <div class="header__button">
+          <span class="material-icons"> menu </span>
+        </div>
         <div class="header__title-wrapper">
           <h1 class="header__title">Sergey Kagal</h1>
           <p class="header__title-under-text">Frontend developer</p>
         </div>
-        <nav class="header__nav ">
+        <nav class="header__nav">
           <ul class="header__nav-list">
-            <li class="header__nav-list-item"><a href="">about me</a></li>
-            <li class="header__nav-list-item"><a href="">education</a></li>
-            <li class="header__nav-list-item"><a href="">skills</a></li>
-            <li class="header__nav-list-item"><a href="">experience</a></li>
-            <li class="header__nav-list-item"><a href="">my works</a></li>
-            <li class="header__nav-list-item"><a href="">contacts</a></li>
+            <li class="header__nav-list-item"><a href="#about">about me</a></li>
+            <li class="header__nav-list-item">
+              <a href="#education">education</a>
+            </li>
+            <li class="header__nav-list-item"><a href="#skills">skills</a></li>
+            <li class="header__nav-list-item">
+              <a href="#experience">experience</a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#myworks">my works</a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#contacts">contacts</a>
+            </li>
           </ul>
         </nav>
-      </header><main>
-        <section class="about">
+      </header>
+      <main>
+        <section class="about" id="about">
           <h2 class="section__title">about me</h2>
           <p class="section__text">
-            I'm a frontend developer from Belarus. The last 2 years are dedicated to studying
-            web development and i keep improving my skills. The process of
-            developing and creating something new brings me pleasure.
+            I'm a frontend developer from Belarus. The last 2 years are
+            dedicated to studying web development and i keep improving my
+            skills. The process of developing and creating something new brings
+            me pleasure.
           </p>
         </section>
-        <section class="education">
+        <section class="education" id="education">
           <h2 class="section__title">education</h2>
           <ul class="section__list education__list">
             <li class="section__list-item">BNTU graduate civil engineer</li>
@@ -75,7 +83,7 @@
             </li>
           </ul>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
           <h2 class="section__title">skills</h2>
           <ul class="section__list skills__list">
             <li class="skills__list-item">HTML</li>
@@ -92,7 +100,7 @@
             <li class="skills__list-item">A2 English level</li>
           </ul>
         </section>
-        <section class="experience">
+        <section class="experience" id="experience">
           <h2 class="section__title">experience</h2>
           <ul class="experience__list">
             <li class="experience__list-item">
@@ -104,7 +112,7 @@
             </li>
           </ul>
         </section>
-        <section class="myworks">
+        <section class="myworks" id="myworks">
           <h2 class="section__title">my works</h2>
           <ul class="myworks__list">
             <li class="myworks__list-item">
@@ -143,33 +151,29 @@
             </li>
           </ul>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
           <h2 class="section__title">contacts</h2>
-          <ul class="contacts__list"><li class="contacts__list-item phone">
-            <span class="material-icons"> phone </span
-            ><a href="tel:+375293633110" class="header__phone"
-              >+375 (29) 363-31-10</a
-            >
-          </li>
-          <li class="contacts__list-item email">
-            <span class="material-icons"> mail </span
-            ><a href="mailto:3461995@gmail.com">3461995@gmail.com</a>
-          </li>
-          <li class="contacts__list-item telegramm">
-            <span class="material-icons">telegram</span>
-            <a href="https://telegram.me/Sergey_Kagal" target="_blank"
-              >@Sergey_Kagal</a
-            >
-          </li></ul>          
+          <ul class="contacts__list">
+            <li class="contacts__list-item phone">
+              <span class="material-icons"> phone </span
+              ><a href="tel:+375293633110" class="header__phone"
+                >+375 (29) 363-31-10</a
+              >
+            </li>
+            <li class="contacts__list-item email">
+              <span class="material-icons"> mail </span
+              ><a href="mailto:3461995@gmail.com">3461995@gmail.com</a>
+            </li>
+            <li class="contacts__list-item telegramm">
+              <span class="material-icons">telegram</span>
+              <a href="https://telegram.me/Sergey_Kagal" target="_blank"
+                >@Sergey_Kagal</a
+              >
+            </li>
+          </ul>
         </section>
       </main>
-   </div>
-      
-      
-      
-      <footer></footer>
     </div>
-    </div>
-    <script src="./app/index.js"></script>      
+    <script src="./app/index.js"></script>
   </body>
 </html>
