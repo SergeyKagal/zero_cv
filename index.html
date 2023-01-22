@@ -13,14 +13,22 @@
   </head>
 
   <body>
-    <div class="wrapper">
-
+   <div class="overlay show__overlay">
+    <div class="close__button">
+      <span class="material-icons">
+        close
+        </span>
+    </div>
+   </div>
       <header>
+        <div class="header__button"><span class="material-icons">
+          menu
+          </span></div>
         <div class="header__title-wrapper">
           <h1 class="header__title">Sergey Kagal</h1>
           <p class="header__title-under-text">Frontend developer</p>
         </div>
-        <nav class="header__nav">
+        <nav class="header__nav show__menu">
           <ul class="header__nav-list">
             <li class="header__nav-list-item"><a href="">about me</a></li>
             <li class="header__nav-list-item"><a href="">education</a></li>
@@ -153,13 +161,12 @@
             <a href="https://telegram.me/Sergey_Kagal" target="_blank"
               >@Sergey_Kagal</a
             >
-          </li></ul>
-          
+          </li></ul>          
         </section>
       </main>
       <footer></footer>
     </div>
     </div>
-      
+    <script src="./app/index.js"></script>      
   </body>
 </html>
